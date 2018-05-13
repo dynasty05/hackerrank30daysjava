@@ -20,6 +20,7 @@ public class Solution {
         // Print a string literal saying "Hello, World." to stdout.
         System.out.println("Hello, World.");
 
+        // Print the input from the keyboard.
         System.out.println(inputString);
 
     }
