@@ -1,3 +1,4 @@
+import java.util.Date;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -25,7 +26,14 @@ public class Solution {
 
         System.out.println(i + i1);
         System.out.println(d + d1);
-
         scanner.close();
+
+        Date today = new Date();
+        System.out.printf("Today is: %tA, %tB %td, %tY", today, today, today, today);
+        System.out.println();
+        System.out.format("Today is: %tc", today);
+        System.out.println();
+        System.err.printf("Today is: %tD", today);
+
     }
 }
